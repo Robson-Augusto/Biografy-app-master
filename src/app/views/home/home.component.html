@@ -1,0 +1,17 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<mat-toolbar>
+    <mat-toolbar-row style="font-size:1.5rem; height: 80px;">
+        <span> Seja bem vindo!  <mat-icon>date_range</mat-icon></span>
+        <div class="animation">
+          <div class="spinner-grow text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+
+        </div>
+        <span class="example-spacer"></span>
+        <button mat-raised-button (click)="addLive()"><mat-icon>add</mat-icon> Info</button>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<app-live-list></app-live-list>

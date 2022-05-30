@@ -1,0 +1,29 @@
+.example-form {
+    min-width: 100px;
+    max-width: 200px;
+    width: 100%;
+  }
+
+  .example-full-width {
+    width: 100%;
+  }
+
+  .dialogtitulo h4{
+    margin-bottom: 1px;
+    margin-top: 1px;
+  }
+  .dialogtitulo h2{
+    margin-bottom: 1px;
+    margin-top: 1px;
+  }
+
+  .mat-stepper-horizontal {
+    margin-top: 8px;
+  }
+
+  .mat-form-field {
+    margin-top: 16px;
+  }
+.dialogtitulo a{
+  margin-right: 5px;
+}

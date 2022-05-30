@@ -1,0 +1,55 @@
+.mat-card-live{
+    border: 1px solid #CFD8DC;
+    border-radius: 4px 3px 6px / 2px 4px;
+    padding-top: 15px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    margin: 5px;
+}
+
+
+.mat-card-title-live{
+    padding-left:10px;
+    padding-top: 0px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+    min-height: 70px;
+}
+
+.mat-chip-date{
+    background-color: #90CAF9 !important;
+    color: black !important;
+}
+.example-card {
+  margin-right: 15px;
+  display:inline-block;
+  max-width: 300px;
+}
+
+.example-header-image {
+  background-image: url('https://logosandtypes.com/wp-content/uploads/2020/08/uninter.svg');
+  background-size: cover;
+}
+.example-header-image2 {
+  background-image: url('https://i.pinimg.com/280x280_RS/9f/7b/2f/9f7b2f535ad0b0d2211d7a1678ddeecd.jpg');
+  background-size: cover;
+}
+.example-header-image3 {
+  background-image: url('https://inatel.br/custom/templateinatelazul/images/icon/ico-casa-viva.png');
+  background-size: cover;
+}
+
+.etefmclogo{
+  margin-left: auto;
+  margin-top: auto;
+  width: 275px;
+}
+
+.uninterlogo{
+
+  align-items: center;
+}
+.alert alert-primary{
+  margin-top: 10px;
+}
