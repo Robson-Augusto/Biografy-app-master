@@ -1,6 +1,6 @@
 # Agendalive
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2. Este projeto é um guia sobre mim, nele você encontra algumas informações sobre meu perfil profissional e academico e também navega em um ambiente feito por mim utilizando algumas tecnologias como Angular e Bootstrap.
 
 ## Development server
 
