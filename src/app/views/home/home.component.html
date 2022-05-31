@@ -10,7 +10,7 @@
   crossorigin="anonymous"
 ></script>
 <mat-toolbar>
-  <mat-toolbar-row style="font-size: 1.5rem; height: 80px">
+  <mat-toolbar-row style="font-size: 1.5rem; height: 80px; background-color: rgb(209, 211, 230);">
     <span> Seja bem vindo! </span>
 
     <div class="animation">
@@ -27,7 +27,7 @@
 
 <app-live-list></app-live-list>
 <main>
-  <form class="formulario" (ngSubmit)="buscar()">
+  <form class="formulario">
     <div>
       <input type="text" class="form-control-sm" placeholder="Buscar no google" [(ngModel)]="valor"/>
         <button type="submit" class="btn btn-primary">Buscar</button>
