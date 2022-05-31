@@ -1,3 +1,4 @@
+import { analyzeAndValidateNgModules } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { LiveFormDialogComponent } from './live-form-dialog/live-form-dialog.component';
@@ -8,6 +9,9 @@ import { LiveFormDialogComponent } from './live-form-dialog/live-form-dialog.com
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+
+  valor : String;
+  valor2 : any;
 
   constructor(
     public dialog: MatDialog
@@ -29,4 +33,9 @@ export class HomeComponent implements OnInit {
     });
   }
 
+  buscar() {
+
+
+   }
 }
+

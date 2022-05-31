@@ -5,3 +5,12 @@
   .animation{
     padding-left: 30px;
   }
+
+.form-control-sm{
+  padding: 3px;
+ height: 37px;
+ margin-top: 200px;
+ margin-bottom: 10px;
+ margin-left: 500px;
+ margin-right: 5px;
+}

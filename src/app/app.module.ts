@@ -23,7 +23,7 @@ import { LiveFormDialogComponent } from './views/home/live-form-dialog/live-form
 import { MatNativeDateModule } from '@angular/material/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
-
+import {MatBadgeModule} from '@angular/material/badge';
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,7 +51,10 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     MatNativeDateModule,
     FormsModule,
     ReactiveFormsModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatBadgeModule,
+    FormsModule,
+
   ],
   providers: [
     LocalDateTimePipe
