@@ -33,9 +33,6 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  buscar() {
-
 
    }
-}
 

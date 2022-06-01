@@ -1,7 +1,11 @@
+import { LiveFormDialogComponent2 } from './../live-form-dialog2/live-form-dialog.component2';
+import { LiveFormDialogComponent } from './../live-form-dialog/live-form-dialog.component';
 import { Component, OnInit } from '@angular/core';
 import { LiveService } from 'src/app/shared/service/live.service';
 import { Live } from 'src/app/shared/model/live.model';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { MatDialog } from '@angular/material/dialog';
+
 import * as moment from 'moment';
 
 let contador = 0;
@@ -13,6 +17,9 @@ let contador2 = 0;
   templateUrl: './live-list.component.html',
   styleUrls: ['./live-list.component.css']
 })
+
+
+
 
 
 export class LiveListComponent implements OnInit {
@@ -29,9 +36,10 @@ export class LiveListComponent implements OnInit {
 
   constructor(
     private rest: LiveService,
-    public sanitizer: DomSanitizer
-
+    public sanitizer: DomSanitizer,
+    public dialog: MatDialog
   ) { }
+
 
   ngOnInit() {
    this.getLives();
@@ -96,10 +104,25 @@ export class LiveListComponent implements OnInit {
       contador2=0;
     }
 
+  }
+
+  share2(): void {
 
 
 
+    const dialogRef = this.dialog.open(LiveFormDialogComponent2, {
+      // maxHeight: '95vh',
+      minWidth: '400px',
+      // width: '25vw',
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+      // window.location.reload();
+    });
   }
 
 
 }
+
+
